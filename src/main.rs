@@ -8,7 +8,7 @@ fn run_command(command: &str) {
 }
 
 fn main() {
-  let commands = vec![
+  let commands: Vec<&str> = vec![
     "whoami",
     "ifconfig",
     "/usr/bin/ip",
